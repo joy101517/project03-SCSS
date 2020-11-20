@@ -407,36 +407,40 @@ a {
       @media (max-width: 1024px) {
         .footerNav .menu a {
           padding: 8px 20px; } }
-  .footerNav .sns a {
-    display: block;
-    width: 48px;
-    height: 48px;
-    margin-right: 32px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-indent: 101%;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s; }
-    .footerNav .sns a:hover {
-      -webkit-transform: translate(-5px, -5px);
-          -ms-transform: translate(-5px, -5px);
-              transform: translate(-5px, -5px); }
-    @media (max-width: 1024px) {
-      .footerNav .sns a {
-        width: 24px;
-        height: 24px;
-        margin-right: 24px; } }
-  .footerNav .sns .fb-logo {
-    background: url(../images/icon/ic_social_fb.svg) center/cover; }
-  .footerNav .sns .ig-logo {
-    background: url(../images/icon/ic_social_ig.svg) center/cover; }
-  .footerNav .sns .line-logo {
-    background: url(../images/icon/ic_social_line.svg) center/cover;
-    margin-right: 0; }
-    @media (max-width: 1024px) {
-      .footerNav .sns .line-logo {
-        margin-right: 0; } }
+
+.sns a {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin-right: 32px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 101%;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+  .sns a:hover {
+    -webkit-transform: translate(-5px, -5px);
+        -ms-transform: translate(-5px, -5px);
+            transform: translate(-5px, -5px); }
+  @media (max-width: 1024px) {
+    .sns a {
+      width: 24px;
+      height: 24px;
+      margin-right: 24px; } }
+
+.sns .fb-logo {
+  background: url(../images/icon/ic_social_fb.svg) center/cover; }
+
+.sns .ig-logo {
+  background: url(../images/icon/ic_social_ig.svg) center/cover; }
+
+.sns .line-logo {
+  background: url(../images/icon/ic_social_line.svg) center/cover;
+  margin-right: 0; }
+  @media (max-width: 1024px) {
+    .sns .line-logo {
+      margin-right: 0; } }
 
 @media (max-width: 767px) {
   .contactMethod {
@@ -910,6 +914,7 @@ a {
     cursor: pointer; }
 
 .submit {
+  display: block;
   line-height: 1.4;
   padding: 16px 143px;
   margin: 0 auto;
